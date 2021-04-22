@@ -1,0 +1,41 @@
+{
+  "name": "tdd-calculator",
+  "version": "1.0.0",
+  "description": "An exercise to learn TDD through implementing a calculator",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint",
+    "test": "jest -i --watchAll --env=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drpicox/tdd-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@types/jest": "^26.0.22",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.0.0",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^26.0.1",
+    "jest-watch-typeahead": "^0.6.2",
+    "typescript": "^4.2.4"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "trailingComma": "all",
+    "semi": true
+  },
+  "jest": {
+    "watchPlugins": [
+      "jest-watch-typeahead/filename",
+      "jest-watch-typeahead/testname"
+    ]
+  },
+  "dependencies": {}
+}
